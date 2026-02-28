@@ -8,7 +8,9 @@ export function ProblemSolution() {
         
         {/* Problem */}
         <FadeIn>
-          <div className="p-8 rounded-2xl bg-red-500/5 border border-red-500/10 relative overflow-hidden group">
+          <div className="relative group">
+            <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-red-500 to-red-500/20 opacity-0 group-hover:opacity-40 transition-opacity duration-300 blur-xl -z-0" />
+            <div className="p-8 rounded-2xl bg-red-500/5 border border-red-500/10 relative transition-all duration-300 z-10">
             <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
               <ShieldAlert size={120} />
             </div>
@@ -29,20 +31,23 @@ export function ProblemSolution() {
                 </li>
               ))}
             </ul>
+            </div>
           </div>
         </FadeIn>
 
         {/* Solution */}
         <FadeIn delay={0.2}>
-          <div className="p-8 rounded-2xl bg-neon-cyan/5 border border-neon-cyan/20 relative overflow-hidden group">
-            <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
-              <Zap size={120} />
-            </div>
-            <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
-              <span className="w-8 h-8 rounded-full bg-neon-cyan/20 flex items-center justify-center text-neon-cyan text-sm">✓</span>
-              The RICO Solution
-            </h3>
-            <ul className="space-y-4">
+          <div className="relative group">
+            <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-green-500 to-green-500/20 opacity-0 group-hover:opacity-40 transition-opacity duration-300 blur-xl -z-0" />
+            <div className="p-8 rounded-2xl bg-neon-cyan/5 border border-neon-cyan/20 relative transition-all duration-300 z-10">
+              <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+                <Zap size={120} />
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+                <span className="w-8 h-8 rounded-full bg-neon-cyan/20 flex items-center justify-center text-neon-cyan text-sm">✓</span>
+                The RICO Solution
+              </h3>
+              <ul className="space-y-4">
               {[
                 { text: "Auto-parse OpenAPI specs instantly", icon: FileJson },
                 { text: "Smart attack engine with AI planning", icon: Brain },
@@ -57,6 +62,7 @@ export function ProblemSolution() {
                 </li>
               ))}
             </ul>
+            </div>
           </div>
         </FadeIn>
 
