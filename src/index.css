@@ -6,8 +6,8 @@
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
   --color-cyber-black: #05070B;
   --color-cyber-dark: #0B1220;
-  --color-neon-cyan: #00F0FF;
-  --color-neon-teal: #19F9D8;
+  --color-neon-cyan: #CCFF00;
+  --color-neon-teal: #FFFF33;
 }
 
 @layer base {
@@ -22,11 +22,11 @@
 
 @layer utilities {
   .text-glow {
-    text-shadow: 0 0 20px rgba(0, 240, 255, 0.5);
+    text-shadow: 0 0 20px rgba(255, 140, 0, 0.5);
   }
   
   .border-glow {
-    box-shadow: 0 0 10px rgba(0, 240, 255, 0.2), inset 0 0 10px rgba(0, 240, 255, 0.1);
+    box-shadow: 0 0 10px rgba(255, 140, 0, 0.2), inset 0 0 10px rgba(255, 140, 0, 0.1);
   }
   
   .glass-panel {

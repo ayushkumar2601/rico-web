@@ -9,8 +9,8 @@ export function ReportPreview() {
   return (
     <Section className="bg-gradient-to-b from-transparent to-cyber-dark/50">
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold mb-4">Professional Security Reports</h2>
-        <p className="text-slate-400">Generate audit-ready HTML reports with a single command.</p>
+        <h2 className="text-5xl font-bold mb-4">Professional Security Reports</h2>
+        <p className="text-neon-cyan text-xl">Generate audit-ready HTML reports with a single command.</p>
       </div>
 
       <FadeIn>

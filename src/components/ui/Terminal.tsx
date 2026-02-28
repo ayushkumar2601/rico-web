@@ -72,9 +72,9 @@ export function Terminal({
       <div className="flex items-center justify-between px-4 py-3 bg-white/5 border-b border-white/5">
         <div className="flex items-center gap-2">
           <div className="flex gap-1.5">
-            <div className="w-3 h-3 rounded-full bg-red-500/20 border border-red-500/50" />
-            <div className="w-3 h-3 rounded-full bg-yellow-500/20 border border-yellow-500/50" />
-            <div className="w-3 h-3 rounded-full bg-green-500/20 border border-green-500/50" />
+            <div className="w-3 h-3 rounded-full bg-[#FF5F57] border border-black/15" />
+            <div className="w-3 h-3 rounded-full bg-[#FEBB2E] border border-black/15" />
+            <div className="w-3 h-3 rounded-full bg-[#28C840] border border-black/15" />
           </div>
           <div className="ml-3 text-xs font-mono text-slate-500 flex items-center gap-1.5">
             <TerminalIcon size={12} />
