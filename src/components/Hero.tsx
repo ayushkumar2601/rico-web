@@ -37,7 +37,7 @@ export function Hero() {
         />
       </div>
 
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="container mx-auto px-12 lg:px-24 relative z-10">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
           
           {/* Text Content */}
@@ -100,9 +100,11 @@ export function Hero() {
                 <Button variant="primary" icon={<ArrowRight size={18} />}>
                   Install via PyPI
                 </Button>
-                <Button variant="outline" icon={<Github size={18} />}>
-                  GitHub
-                </Button>
+                <a href="https://github.com/ayushkumar2601/rico-term" target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline" icon={<Github size={18} />}>
+                    GitHub
+                  </Button>
+                </a>
                 <Button variant="ghost" icon={<Play size={18} />}>
                   Watch Demo
                 </Button>
@@ -140,7 +142,7 @@ export function Hero() {
                   <span className="text-green-400">✔ Report generated: ./rico-report.html</span>
                 </>
               }
-              className="border-neon-cyan/30 shadow-[0_0_50px_-12px_rgba(0,240,255,0.2)]"
+              className="border-neon-cyan/30 shadow-[0_0_50px_-12px_rgba(255,140,0,0.2)]"
             />
           </motion.div>
         </div>
