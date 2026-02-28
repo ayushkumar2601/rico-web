@@ -104,7 +104,7 @@ export function Terminal({
           </div>
         )}
       </div>
-      <div className="p-4 font-mono text-sm overflow-x-auto min-h-[120px]">
+      <div className="px-6 py-4 font-mono text-sm overflow-x-auto min-h-[120px]">
         <div className="flex gap-2 mb-2 text-slate-300">
           <span className="text-neon-cyan select-none">$</span>
           <span className="whitespace-pre-wrap">
