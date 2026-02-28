@@ -26,7 +26,6 @@ export default function App() {
       <CICD />
       <Safety />
       <Installation />
-      <About />
       <Footer />
     </main>
   );
