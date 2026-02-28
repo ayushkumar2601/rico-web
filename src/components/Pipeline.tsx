@@ -11,9 +11,9 @@ const steps = [
 
 export function Pipeline() {
   return (
-    <Section id="pipeline" className="border-y border-white/5 bg-white/[0.02]">
+    <Section id="pipeline" className="border-y border-white/5 bg-white/[0.02] py-32 md:py-40">
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold">How RICO Works</h2>
+        <h2 className="text-5xl font-bold">How RICO Works</h2>
       </div>
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-0 relative">

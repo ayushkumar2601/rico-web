@@ -18,9 +18,9 @@ export function ReportPreview() {
           {/* Fake Browser Header */}
           <div className="bg-slate-900 px-4 py-3 flex items-center gap-4 border-b border-white/5">
             <div className="flex gap-1.5">
-              <div className="w-3 h-3 rounded-full bg-slate-700" />
-              <div className="w-3 h-3 rounded-full bg-slate-700" />
-              <div className="w-3 h-3 rounded-full bg-slate-700" />
+              <div className="w-3 h-3 rounded-full bg-red-500" />
+              <div className="w-3 h-3 rounded-full bg-yellow-500" />
+              <div className="w-3 h-3 rounded-full bg-green-500" />
             </div>
             <div className="flex-1 bg-slate-800 rounded px-3 py-1 text-xs text-slate-400 font-mono text-center">
               file:///Users/dev/reports/rico-scan-2025.html

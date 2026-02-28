@@ -36,17 +36,17 @@ export function Features() {
         </p>
       </div>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
         {features.map((feature, i) => (
           <FadeIn key={i} delay={i * 0.05}>
             <motion.div 
               whileHover={{ 
                 y: -6,
-                borderColor: 'rgba(0, 240, 255, 0.4)',
+                borderColor: 'rgba(204, 255, 0, 0.6)',
                 backgroundColor: 'rgba(255, 255, 255, 0.07)'
               }}
               transition={{ duration: 0.2 }}
-              className="group p-6 rounded-xl bg-white/5 border border-white/5 h-full relative overflow-hidden"
+              className="group p-6 rounded-xl bg-white/5 border border-neon-cyan/20 h-full relative overflow-hidden"
             >
               {/* Gradient Shimmer on Hover */}
               <div className="absolute inset-0 bg-gradient-to-br from-neon-cyan/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
