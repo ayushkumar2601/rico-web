@@ -30,8 +30,8 @@ export function Features() {
   return (
     <Section id="features">
       <div className="text-center mb-16">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">Everything you need to secure APIs</h2>
-        <p className="text-slate-400 max-w-2xl mx-auto">
+        <h2 className="text-3xl md:text-5xl font-bold mb-4">Everything you need to secure APIs</h2>
+        <p className="text-neon-cyan max-w-2xl mx-auto">
           Built for developers and security engineers who demand power and precision.
         </p>
       </div>

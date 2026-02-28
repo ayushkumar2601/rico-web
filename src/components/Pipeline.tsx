@@ -11,9 +11,20 @@ const steps = [
 
 export function Pipeline() {
   return (
-    <Section id="pipeline" className="border-y border-white/5 bg-white/[0.02] py-32 md:py-40">
-      <div className="text-center mb-12">
-        <h2 className="text-5xl font-bold">How RICO Works</h2>
+    <Section id="pipeline" className="border-y border-white/5 py-32 md:py-40">
+      <div className="relative mb-14">
+        <div className="hidden md:block relative w-3/5 mx-auto h-32">
+          <span className="absolute inset-0 flex items-center justify-center text-[110px] font-black uppercase tracking-[0.22em] text-white/[0.08] select-none pointer-events-none z-0 leading-none">
+            Operations
+          </span>
+          <h2 className="absolute inset-0 flex items-center justify-center text-4xl md:text-5xl font-bold uppercase tracking-[0.22em] text-neon-cyan z-10 leading-none">
+            How Rico Works
+          </h2>
+        </div>
+
+        <div className="md:hidden text-center">
+          <h2 className="text-10xl font-bold uppercase tracking-[0.18em] text-neon-cyan">How Rico Works</h2>
+        </div>
       </div>
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-0 relative">
