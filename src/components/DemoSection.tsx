@@ -17,9 +17,9 @@ export function DemoSection() {
           
           <div className="space-y-6">
             {[
-              { cmd: "rico parse", desc: "Validate and inspect your API definition" },
-              { cmd: "rico attack", desc: "Run targeted security tests against endpoints" },
-              { cmd: "rico report", desc: "Export findings to share with your team" }
+              { cmd: "rico parse", desc: "Inspect and validate OpenAPI definitions" },
+              { cmd: "rico attack", desc: "Run automated vulnerability tests per endpoint" },
+              { cmd: "rico report", desc: "Generate risk-scored reports and enforce build gates." }
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-4 group">
                 <div className="mt-1 w-2 h-2 rounded-full bg-neon-cyan group-hover:scale-150 transition-transform" />

@@ -87,8 +87,9 @@ export function Hero() {
                 transition={{ delay: 0.7, duration: 0.6 }}
                 className="text-lg text-slate-400 mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed"
               >
-                Parse OpenAPI specs. Launch automated attacks. Generate professional security reports. 
-                The modern CLI for securing your infrastructure.
+                Parse OpenAPI specs. Run deterministic vulnerability tests.
+                Generate CVSS-scored reports with enforceable risk control. <br></br>
+                AI-guided attack planning with Snowflake exploit intelligence.
               </motion.p>
               
               <motion.div 

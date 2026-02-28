@@ -1,8 +1,16 @@
 import { Section, FadeIn } from './ui/Section';
 import { 
+  ScanSearch,
+  ShieldAlert,
+  Radar,
   FileCode, 
   Shield, 
   BrainCircuit, 
+  Lightbulb,
+  FileJson,
+  Database,
+  Sparkles,
+  ShieldCheck,
   Terminal, 
   FileText, 
   Key, 
@@ -14,17 +22,17 @@ import {
 import { motion } from 'framer-motion';
 
 const features = [
-  { icon: FileCode, title: "OpenAPI Parser", desc: "Instantly ingest and validate Swagger/OpenAPI 3.0+ specs." },
-  { icon: Shield, title: "Automated Attacks", desc: "Launch SQLi, XSS, and IDOR injection vectors automatically." },
-  { icon: BrainCircuit, title: "AI Classification", desc: "Smartly categorize endpoints to tailor attack strategies." },
-  { icon: Terminal, title: "Rich CLI Output", desc: "Beautiful, readable terminal output with progress tracking." },
-  { icon: FileText, title: "HTML Reports", desc: "Generate executive-ready HTML & Markdown security reports." },
-  { icon: Key, title: "Auth Support", desc: "Handles Bearer tokens, API keys, and OAuth flows seamlessly." },
-  { icon: Zap, title: "Async Testing", desc: "High-performance asynchronous HTTP engine for speed." },
-  { icon: Play, title: "Playwright", desc: "Browser-based testing for complex authentication flows." },
-  { icon: GitBranch, title: "CI/CD Ready", desc: "Native integration for GitHub Actions and GitLab CI." },
-  { icon: Globe, title: "Domain Control", desc: "Strict domain allowlisting and rate limiting for safety." },
-];
+  { icon: ScanSearch, title: "OpenAPI Scan Control", desc: "Parse OpenAPI specs and orchestrate parse, attack, and report workflows from a single CLI." },
+  { icon: ShieldAlert, title: "Automated API Attacks", desc: "Execute IDOR, Missing Auth, and SQLi tests per endpoint with live HTTP probing." },
+  { icon: Radar, title: "Unified Detection Engine", desc: "Analyze responses for status, timing, and SQL error signals with consistent confidence scoring." },
+  { icon: BrainCircuit, title: "AI Endpoint Classification", desc: "Classify endpoints and dynamically select attack sets using LLM or heuristic fallback." },
+  { icon: Lightbulb, title: "Attack Decision Insights", desc: "Attach concise reasoning to each attack selection for transparent, explainable scan output." },
+  { icon: FileJson, title: "Post-Scan Intelligence", desc: "Prioritize findings, map exploit chains, and generate remediation strategy with structured JSON output." },
+  { icon: Database, title: "Snowflake Security Storage", desc: "Persist scans, payload attempts, and vulnerabilities in Snowflake for historical analysis." },
+  { icon: Sparkles, title: "Adaptive Payload Engine", desc: "Generate improved payloads using historical success data combined with AI-driven strategies." },
+  { icon: ShieldCheck, title: "Deterministic Risk Gating", desc: "Normalize findings into severity scores and enforce configurable fail thresholds in pipelines." },
+  { icon: GitBranch, title: "CI/CD Enforcement", desc: "Run scans on push or PR, upload artifacts, and block merges on critical findings." },
+];  
 
 export function Features() {
   return (
