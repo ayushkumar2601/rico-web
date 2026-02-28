@@ -1,0 +1,5 @@
+{
+  "name": "RICO - API Security CLI",
+  "description": "AI-Powered API Security Testing Tool. Parse OpenAPI specs, launch automated attacks, and generate professional security reports.",
+  "requestFramePermissions": []
+}
