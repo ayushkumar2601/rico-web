@@ -2,11 +2,11 @@ import { Section, FadeIn } from './ui/Section';
 import { ArrowRight } from 'lucide-react';
 
 const steps = [
-  { id: "01", title: "Parse", desc: "Read OpenAPI Spec" },
-  { id: "02", title: "Classify", desc: "Identify Endpoints" },
-  { id: "03", title: "Attack", desc: "Inject Payloads" },
-  { id: "04", title: "Detect", desc: "Analyze Responses" },
-  { id: "05", title: "Report", desc: "Generate HTML" },
+  { id: "01", title: "Parse", desc: "Extract endpoints from specs" },
+  { id: "02", title: "Classify", desc: "Intelligent endpoint assessment" },
+  { id: "03", title: "Attack", desc: "Automated vulnerability testing" },
+  { id: "04", title: "Detect", desc: "Deep response evaluation" },
+  { id: "05", title: "Report", desc: "Enterprise security findings" },
 ];
 
 export function Pipeline() {
@@ -33,8 +33,8 @@ export function Pipeline() {
             <FadeIn delay={i * 0.1} className="relative z-10 w-full md:w-auto">
               <div className="flex flex-col items-center text-center p-6 rounded-xl border border-white/10 bg-cyber-dark min-w-[160px] hover:border-neon-cyan/50 transition-colors">
                 <span className="text-xs font-mono text-neon-cyan mb-2">{step.id}</span>
-                <h4 className="text-lg font-bold text-white mb-1">{step.title}</h4>
-                <p className="text-xs text-slate-500 uppercase tracking-wider">{step.desc}</p>
+                <h4 className="text-xl font-bold text-white mb-1">{step.title}</h4>
+                <p className="text-[10px] text-slate-500 uppercase tracking-wider">{step.desc}</p>
               </div>
             </FadeIn>
             
