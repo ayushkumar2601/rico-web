@@ -8,8 +8,8 @@ export function CICD() {
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         <FadeIn>
           <div className="flex items-center gap-3 mb-6">
-            <Github size={32} className="text-white" />
-            <h2 className="text-3xl font-bold">CI/CD Integration</h2>
+            <Github size={48} className="text-neon-cyan" />
+            <h2 className="text-5xl font-bold">CI/CD Integration</h2>
           </div>
           <p className="text-slate-400 text-lg mb-8">
             Block vulnerabilities before they reach production. RICO integrates natively 
